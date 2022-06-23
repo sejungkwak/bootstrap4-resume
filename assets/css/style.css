@@ -72,6 +72,7 @@
 }
 
 .menucontainer li {
+    padding: 0;
     font-size: 0.9rem;
 }
 
@@ -103,4 +104,10 @@
     letter-spacing: 2px;
     text-align: center;
     text-transform: uppercase;
+}
+
+/*********************** Hover.CSS ***********************/
+
+.hvr-sweep-to-bottom::before {
+    background-color: rgba(0, 0, 0, 0.2);
 }
