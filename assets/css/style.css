@@ -28,7 +28,7 @@
     background-color: #525252;
 }
 
-/*********************** Special text style ***********************/
+/*********************** Special display / text style ***********************/
 
 .uppercase {
     text-transform: uppercase;
@@ -38,6 +38,10 @@
     font-family: "Exo", sans-serif;
     font-weight: 300;
     color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
 }
 
 /*********************** Heading ***********************/
@@ -129,5 +133,48 @@
 footer {
     min-height: 7.5rem;
     background-color: #525252;
-    columns: #fafafa;
+    color: #fafafa;
+}
+
+.cv-pdf i {
+    padding-left: .35rem;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #fafafa;
+    transition: color .35s ease-in-out;
+    -moz-transition: color .35s ease-in-out;
+    -webkit-transition: color .35s ease-in-out;
+    -o-transition: color .35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
+}
+
+.social-links {
+    padding-bottom: 1rem;
+}
+
+.social-links li a i {
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    padding: .8rem 0;
+    background-color: #8f8f8f;
+    font-size: .85rem;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    transition: background-color .35s ease-in-out;
+    -moz-transition: background-color .35s ease-in-out;
+    -webkit-transition: background-color .35s ease-in-out;
+    -o-transition: background-color .35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #e84610;
+}
+
+#footer-details {
+    padding: 1.25rem;
 }
