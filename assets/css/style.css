@@ -8,8 +8,12 @@
 
 /*********************** Colours ***********************/
 
-.bg-color-name-title {
+.bg-colour-name-title {
     background-color: #676767;
+}
+
+.bg-colour-three-reasons {
+    background-color: #fff;
 }
 
 .ui-menu-colour-home {
@@ -28,7 +32,7 @@
     background-color: #525252;
 }
 
-/*********************** Special display / text style ***********************/
+/*********************** Special layout / text style ***********************/
 
 .uppercase {
     text-transform: uppercase;
@@ -42,6 +46,23 @@
 
 .inline-block {
     display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    float: none;
+    padding: 0 2rem 2rem;
+}
+
+.section-heading {
+    margin-top: 1.75rem;
+    margin-bottom: 2.5rem;
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
 }
 
 /*********************** Heading ***********************/
