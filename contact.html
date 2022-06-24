@@ -21,7 +21,7 @@
         <div class="row no-gutters">
             <a class="col-md-4 logo" href="index.html"></a>
             <div class="col-md-8">
-                <div class="row bg-color-name-title no-gutters">
+                <div class="row bg-colour-name-title no-gutters">
                     <div class="col heading">
                         <h1 class="name">Rosie Odenkirk</h1>
                         <h2 class="title">Full Stack Developer</h2>
@@ -31,13 +31,13 @@
                     <div class="col">
                         <ul class="list-inline menucontainer" id="nav">
                             <li class="col-6 col-sm-3 ui-menu-colour-home list-inline-item menuitem"><a
-                                    class="hvr-sweep-to-bottom" href="#"><i class="fa fa-home"
+                                    class="hvr-sweep-to-bottom" href="index.html"><i class="fa fa-home"
                                         aria-hidden=true></i><span>Home</span></a></li>
                             <li class="col-6 col-sm-3 ui-menu-colour-resume list-inline-item menuitem"><a
-                                    class="hvr-sweep-to-bottom" href="#"><i class="fa fa-graduation-cap"
+                                    class="hvr-sweep-to-bottom" href="resume.html"><i class="fa fa-graduation-cap"
                                         aria-hidden=true></i><span>Resume</span></a></li>
                             <li class="col-6 col-sm-3 ui-menu-colour-contact list-inline-item menuitem"><a
-                                    class="hvr-sweep-to-bottom" href="#"><i class="fa fa-comment-o"
+                                    class="hvr-sweep-to-bottom" href="contact.html"><i class="fa fa-comment-o"
                                         aria-hidden=true></i><span>Contact</span></a></li>
                             <li class="col-6 col-sm-3 ui-menu-colour-download list-inline-item menuitem"><a
                                     class="hvr-sweep-to-bottom" href="#"><i class="fa fa-download"
@@ -48,9 +48,31 @@
             </div>
         </div>
     </header>
-    <section>
 
+    <section class="container-fluid">
+        <div class="row bg-colour-contact">
+            <div class="col">
+                <h3 class="contact-heading uppercase text-center">Got a project in mind?</h3>
+                <h5 class="uppercase text-center">Let's work together!</h5>
+
+                <div class="center-form">
+                    <form action="/">
+                        <input class="form-control" type="text" name="name" id="fullname" placeholder="Name" required>
+                        <input class="form-control" type="email" name="email" id="emailaddress" placeholder="Email"
+                            required>
+                        <textarea class="form-control" name="projectsummary" id="projectsummary" rows="5"
+                            placeholder="Project description" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button class="btn btn-secondary" type="submit">Send Project Request</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
+
     <footer class="container-fluid">
         <div class="row" id="footer-details">
             <div class="col-sm-4">
