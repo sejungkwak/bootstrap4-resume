@@ -24,6 +24,10 @@
     background-color: #9b59b6;
 }
 
+.bg-colour-contact {
+    background-color: #fff;
+}
+
 .ui-menu-colour-home {
     background-color: #e67e22;
 }
@@ -313,4 +317,40 @@ footer {
     background-color: rgba(25, 25, 25, .2);
     font-weight: 400;
     color: #fafafa;
+}
+
+/*********************** Contact Form ***********************/
+
+.contact-heading {
+    margin-top: 1.6rem;
+    margin-bottom: 1.25rem;
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+}
+
+.center-form {
+    margin: 0 auto;
+    max-width: 70%;
+    padding-top: .8rem;
+}
+
+button[type="submit"] {
+    margin-top: 1rem;
+    margin-bottom: 1.25rem;
+    border: none;
+    background-color: #e84610;
+    color: #fafafa;
+}
+
+/*********************** Media Queries ***********************/
+
+@media screen and (min-width: 62rem) {
+
+    .center-form {
+        margin: 0 auto;
+        max-width: 50%;
+        min-height: 15rem;
+        padding-top: 2rem;
+    }
+
 }
