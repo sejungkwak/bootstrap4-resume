@@ -20,6 +20,10 @@
     background-color: #f4f4f4;
 }
 
+.bg-colour-work-history {
+    background-color: #9b59b6;
+}
+
 .ui-menu-colour-home {
     background-color: #e67e22;
 }
@@ -247,6 +251,47 @@ footer {
 
 .three-reasons-heading {
     margin-bottom: 1rem;
+}
+
+/*********************** Work History ***********************/
+
+.history-heading {
+    margin-bottom: 3rem;
+    color: #fafafa;
+}
+
+.timeline-item {
+    position: relative;
+    border-left: 1px solid;
+    padding: 4em 2em 0 2em;
+    color: #fafafa;
+}
+
+.timeline-item::before {
+    content: attr(data-dates);
+    position: absolute;
+    top: 3em;
+    left: 2.5em;
+    display: block;
+    font-size: .8em;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+}
+
+.timeline-item::after {
+    content: "";
+    position: absolute;
+    top: 2.5em;
+    left: -.46rem;
+    display: block;
+    border-radius: 50%;
+    width: .8rem;
+    height: .8rem;
+    background-color: #fafafa;
+}
+
+.timeline-item>p {
+    margin-bottom: 0;
 }
 
 /*********************** Skills ***********************/
