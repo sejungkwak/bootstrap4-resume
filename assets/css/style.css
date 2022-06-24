@@ -16,6 +16,10 @@
     background-color: #fff;
 }
 
+.bg-colour-personal-info {
+    background-color: #f4f4f4;
+}
+
 .ui-menu-colour-home {
     background-color: #e67e22;
 }
@@ -198,6 +202,36 @@ footer {
 
 #footer-details {
     padding: 1.25rem;
+}
+
+/*********************** Personal Info ***********************/
+
+.personal-info-item {
+    display: block;
+    clear: both;
+    margin-bottom: 1.25rem;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    display: inline-block;
+    padding-right: .5rem;
+}
+
+.personal-info-item .key {
+    margin-right: 1.3rem;
+    padding-top: .15rem;
+    width: 30%;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
 }
 
 /*********************** Three Reasons ***********************/
